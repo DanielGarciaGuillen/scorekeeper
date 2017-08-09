@@ -1,3 +1,79 @@
-.winner {
-    color: green;
+
+.scoremark{
+    font-size: 85px;
 }
+
+#scorelimit{
+    color: #A3A3A3;
+}
+
+.winner {
+    color: #3D5467;
+}
+
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: #5AABCE;  
+  border-width: 5px;
+  border-style: solid;
+  border-color: #3D5467;
+  color: white;
+}
+
+.Absolute-Center.is-Responsive {
+  width: 50%; 
+  height: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 40px;
+}
+
+.row{
+    padding-top: 18px;
+    height: 30px;
+
+}
+
+button {
+    overflow: visible;
+    width: 15px;
+    padding: 10px 0;
+    margin: 1.8rem;
+    font-family: 'Bungee Shade', sans-serif;   
+    letter-spacing: 1px;    
+    transition: opacity .3s,z-index .3s step-end,transform .3s,-webkit-transform .3s;
+    z-index: 1;
+    background-color: transparent;  
+    height: 48px; 
+    text-transform: uppercase;
+}
+
+.btn.striped-shadow span {
+    display: block;
+    position: relative;
+    z-index: 2;
+    border: 3px solid;
+}
+.btn.striped-shadow.white span {
+    border-color: #fff;
+    color: #fff;
+    background: #F25F5C;
+}
+
+.btn.striped-shadow:hover {
+    -webkit-transform: translate(-5px,5px);
+    -ms-transform: translate(-5px,5px);
+    transform: translate(-5px,5px);
+    z-index: 3;
+}
+
+button.btn.striped-shadow:hover:after, button.btn.striped-shadow:hover:before {
+    -webkit-transform: translate(5px,-5px);
+    -ms-transform: translate(5px,-5px);
+    transform: translate(5px,-5px);
+}
+
+
