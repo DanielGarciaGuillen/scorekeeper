@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: #232323;
 }
@@ -21,3 +22,116 @@ h1{
 span {
     color: white;
 }
+=======
+html{
+    height: 100%;
+}
+
+body {
+font-family: "Roboto";
+background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#full {
+    font-family: "Roboto";
+
+}
+
+.scoremark{
+    font-size: 106px;
+    background: white;
+    color: black;
+    border-radius: 3px;
+}
+
+#scorelimit{
+    color: #A3A3A3;
+}
+
+.winner {
+    color: #F25F5C;
+}
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 40px; right: 0;
+  background: #5AABCE; 
+  color: white;
+}
+
+.Absolute-Center.is-Responsive {
+  width: 50%; 
+  height: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 35px;
+}
+
+.row{
+    padding-top: 18px;
+}
+
+button {
+    overflow: visible;
+    width: 15px;
+    padding: 10px 0;
+    margin: 1.8rem;
+    font-family: 'Bungee Shade', sans-serif;   
+    letter-spacing: 1px;    
+    transition: opacity .3s,z-index .3s step-end,transform .3s,-webkit-transform .3s;
+    z-index: 1;
+    background-color: transparent;  
+    height: 48px; 
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+#player1{
+    font-size: 19px;
+    width: 200px;
+}
+#player2{
+    font-size: 19px;
+    width: 200px;
+}
+
+#rest {
+    font-size: 15px;
+    width: 125px;
+}
+
+.btn.striped-shadow span {
+    display: block;
+    position: relative;
+    z-index: 2;
+    border: 3px solid;
+}
+
+.btn.striped-shadow.white span {
+    border-color: #fff;
+    color: #fff;
+    background: #F25F5C;
+}
+
+.btn.striped-shadow:hover {
+    -webkit-transform: translate(-3px,3px);
+    -ms-transform: translate(-3px,3px);
+    transform: translate(-3px,3px);
+    z-index: 3;
+}
+
+button.btn.striped-shadow:hover:after, button.btn.striped-shadow:hover:before {
+    -webkit-transform: translate(3px,-3px);
+    -ms-transform: translate(3px,-3px);
+    transform: translate(3px,-3px);
+}
+
+.fa {
+    color: white;
+}
+
+
+>>>>>>> d17efb8fd78d06febdce4c4feaf1b052298cbe6e
