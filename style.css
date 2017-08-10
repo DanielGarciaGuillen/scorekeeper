@@ -1,6 +1,21 @@
+html{
+    height: 100%;
+}
+
+body {
+font-family: Roboto;
+background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 .scoremark{
     font-size: 85px;
+    background: white;
+    height: 123px;
+    padding-top: 13px;
+    color: black;
+    border-radius: 3px;
 }
 
 #scorelimit{
@@ -8,18 +23,14 @@
 }
 
 .winner {
-    color: #3D5467;
+    color: #F25F5C;
 }
-
 
 .Absolute-Center {
   margin: auto;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  background: #5AABCE;  
-  border-width: 5px;
-  border-style: solid;
-  border-color: #3D5467;
+  top: 0; left: 0; bottom: 40px; right: 0;
+  background: #5AABCE; 
   color: white;
 }
 
@@ -28,13 +39,11 @@
   height: 50%;
   min-width: 200px;
   max-width: 500px;
-  padding: 40px;
+  padding: 35px;
 }
 
 .row{
     padding-top: 18px;
-    height: 30px;
-
 }
 
 button {
@@ -49,6 +58,21 @@ button {
     background-color: transparent;  
     height: 48px; 
     text-transform: uppercase;
+    font-size: 19px;
+}
+
+#player1{
+    font-size: 19px;
+    width: 200px;
+}
+#player2{
+    font-size: 19px;
+    width: 200px;
+}
+
+#rest {
+    font-size: 15px;
+    width: 125px;
 }
 
 .btn.striped-shadow span {
@@ -57,6 +81,7 @@ button {
     z-index: 2;
     border: 3px solid;
 }
+
 .btn.striped-shadow.white span {
     border-color: #fff;
     color: #fff;
@@ -64,16 +89,20 @@ button {
 }
 
 .btn.striped-shadow:hover {
-    -webkit-transform: translate(-5px,5px);
-    -ms-transform: translate(-5px,5px);
-    transform: translate(-5px,5px);
+    -webkit-transform: translate(-3px,3px);
+    -ms-transform: translate(-3px,3px);
+    transform: translate(-3px,3px);
     z-index: 3;
 }
 
 button.btn.striped-shadow:hover:after, button.btn.striped-shadow:hover:before {
-    -webkit-transform: translate(5px,-5px);
-    -ms-transform: translate(5px,-5px);
-    transform: translate(5px,-5px);
+    -webkit-transform: translate(3px,-3px);
+    -ms-transform: translate(3px,-3px);
+    transform: translate(3px,-3px);
+}
+
+.fa {
+    color: white;
 }
 
 
