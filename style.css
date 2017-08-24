@@ -51,7 +51,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 
 button {
     overflow: visible;
-    width: 15px;
+    width: 100%;
     padding: 10px 0;
     margin: 1.8rem;
     font-family: 'Bungee Shade', sans-serif;   
@@ -59,7 +59,7 @@ button {
     transition: opacity .3s,z-index .3s step-end,transform .3s,-webkit-transform .3s;
     z-index: 1;
     background-color: transparent;  
-    height: 48px; 
+    height: 100%; 
     text-transform: uppercase;
     font-size: 19px;
     outline: none;
@@ -77,6 +77,13 @@ button {
 #rest {
     font-size: 15px;
     width: 125px;
+    margin-top: 20px;
+}
+
+.scorelimit {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
 }
 
 .btn.striped-shadow span {
