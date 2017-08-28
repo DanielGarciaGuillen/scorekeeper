@@ -22,7 +22,9 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 }
 
 #scorelimit{
-    color: #A3A3A3;
+    color: black;
+     width: 30%;
+     text-align: center;
 }
 
 .winner {
@@ -73,17 +75,19 @@ button {
     font-size: 19px;
     width: 200px;
 }
-
 #rest {
     font-size: 15px;
     width: 125px;
     margin-top: 20px;
+   
 }
 
 .scorelimit {
     text-align: center;
     margin: 0 auto;
     font-size: 14px;
+   
+    
 }
 
 .btn.striped-shadow span {
